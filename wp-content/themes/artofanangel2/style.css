@@ -1,0 +1,120 @@
+/*
+Theme Name: Starkers
+Theme URI: http://elliotjaystocks.com
+Description: The totally nude Wordpress theme. Phwoar! (Based on Twenty Ten)
+Version: 3.0
+Author: Elliot Jay Stocks
+Author URI: http://elliotjaystocks.com
+Tags: starkers, naked, clean, basic
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";
+
+*				{ margin: 0; padding: 0; }
+body			{ color: white; font: 14px Georgia, serif; background:white url(images/artofanangel.png) fixed no-repeat;}
+a				{ text-decoration: none; color: white; }
+a img			{ border: 0; }
+a:hover			{ color: #f66dee; }
+
+#page-wrap		{ width: 1280px;  overflow:auto; }
+#main-content 	{ margin: 196px 0 0 230px; background: rgba(0,0,0,0.78); padding: 20px; width: 864px; -moz-border-radius-topright: 20px; -moz-border-radius-topleft: 20px; -moz-border-radius-bottomright: 20px;  -moz-border-radius-bottomleft: 20px; -webkit-border-bottom-left-radius: 20px;}
+
+#footer			{clear: both; width: auto; background: rgba(0,0,0,0.78); padding: 100 100 100 100;}
+#main-title		{ font: 36; color: black; }
+
+/*
+	TYPOGRAPHY
+*/
+h2					{ text-transform: uppercase; font: 17px Georgia, serif; letter-spacing: 2px; margin: 10px 0 10px 0; text-align: center; color: white; text-decoration: underline;}
+h2 a				{ color: white;}
+h2 a:hover			{ color: #f66dee; }
+.entry-date			{ color: white; }
+.entry-date a:hover { color: #f66dee}
+p					{ color: white; font: 15px Georgia, serif; margin: 20px 0 20px 0;}
+#logo				{ position: absolute; top: 10px; left: 0px; z-index: 50 ;}
+
+
+/*navigation menu */
+#nav {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background-color:rgba(0,0,0,0.78);
+margin: 150px 0px 197px 0px;
+padding:0;
+width:100%;
+position:absolute;
+z-index:1;
+}
+#nav, #nav ul {
+line-height:40px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+width:100%;
+}
+#nav a, #nav a:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+border:medium none;
+display:block;
+text-decoration:none;
+}
+#nav li {
+float:left;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+border-right:1px solid #6E7073;
+}
+#nav a, #nav a:visited {
+color:#FFFFFF;
+display:block;
+padding:0 20px;
+}
+#nav a:hover, #nav a:active, .current_page_item a, #home .on {
+text-decoration:none;
+}
+#nav li ul {
+border-bottom:1px solid #6E7073;
+height:auto;
+left:-999em;
+line-height:30px;
+margin:0;
+padding:0;
+position:absolute;
+width:222px;
+}
+#nav li li {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#1E1F21 none repeat scroll 0 0;
+border-left:1px solid #6E7073;
+border-right:1px solid #6E7073;
+border-top:1px solid #6E7073;
+width:220px;
+}
+#nav li li a, #nav li li a:visited {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:rgba(0,0,0,0.78) none repeat scroll 0 0;
+color:#FFFFFF;
+font-size:0.9em;
+font-weight:normal;
+}
+#nav li li a:hover, #nav li li a:active {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:rgba(0,0,0,0.25) none repeat scroll 0 0;
+}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {
+left:auto;
+}
+/*navigation menu */
